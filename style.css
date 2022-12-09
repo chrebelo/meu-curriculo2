@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+:root {
+    --cor1: #2B75B6;
+    --cor2: #252549;
+    --cor3: #AB401E;
+    --cor4: #722721;
+    --cor5: #20101D;
+}
+* { 
+    /* height: 100%; */
+    font-family: 'Domine', serif;
+    
+}
+body {
+    height: 100vh;
+
+    background-color: black;
+    background-image: url('imagens/wallpaper-tec.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+main {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.836) 70%, rgba(255, 255, 255, 0.205));
+    border-radius: 2%;
+    border: 1px solid black;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.473);
+    max-width: 600px;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+
+}
+h1 {
+    font-family: 'Fredoka One', cursive;
+    background-color: var(--cor3);
+    color: white;
+    border-radius: 5px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+    text-align: center;
+}
+h2 {
+    color: var(--cor4);
+    text-align: center;
+}
+h3 {
+    color: var(--cor2);
+    text-align: center;
+}
+p {
+    text-align: center;
+    text-indent: 20px;
+    margin-bottom: 20px;
+}
+li {
+    margin: auto; width: 370px;
+        
+}
+a {
+    text-decoration: none;
+    color: var(--cor4);
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: var(--cor3);
+}
+a:active {
+    color: var(--cor5);
+}
+
+h1:hover {
+    color: black;
+    text-decoration: underline;
+    
+}
+p#paginas {
+    color: white;
+}
+p#paginas a {
+    color: white;
+}
