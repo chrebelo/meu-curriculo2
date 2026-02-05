@@ -92,3 +92,7 @@ p#paginas {
 p#paginas a {
     color: white;
 }
+.oculto {
+    color: transparent;
+    text-shadow: 0 0 8px black;
+}
